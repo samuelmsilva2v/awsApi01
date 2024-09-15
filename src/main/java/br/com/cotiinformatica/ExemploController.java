@@ -26,6 +26,6 @@ public class ExemploController {
 			alunos.add(new AlunosDto(resultSet.getInt(1), resultSet.getString(2)));
 
 		connection.close();
-		return alunos;
+		return alunos; // comentário teste
 	}
 }
